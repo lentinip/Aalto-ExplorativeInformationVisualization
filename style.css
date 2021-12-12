@@ -642,22 +642,22 @@ progress {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: none;
+    max-width: 540px;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: none;
+    max-width: 720px;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: none;
+    max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: none;
+    max-width: 1140px;
   }
 }
 @media (min-width: 1400px) {
@@ -670,7 +670,6 @@ progress {
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* EDITED */
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
@@ -4054,9 +4053,7 @@ textarea.form-control-lg {
   padding-bottom: 0.3125rem;
   margin: auto;
   font-size: 1.25rem;
-  word-wrap: break-word; /* EDITED */
   text-decoration: none;
-  text-align: center;
 }
 .navbar-nav {
   display: flex;
